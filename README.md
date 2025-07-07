@@ -7,6 +7,8 @@ This project provides a comprehensive analysis and predictive modeling of crime 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Problem](#problem)
+- [Problem Solved](#problem-solved)
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Installation & Requirements](#installation--requirements)
@@ -22,6 +24,18 @@ This project provides a comprehensive analysis and predictive modeling of crime 
 ## Project Overview
 
 The goal of this project is to analyze patterns in London crime data and build a predictive model to estimate crime rates based on time, location, and crime type. The project leverages Python data science libraries for data handling, visualization, and machine learning.
+
+---
+
+## Problem
+
+Crime rates in London vary significantly by time, location, and crime type, making it challenging for stakeholders to anticipate and allocate resources effectively. Without a clear understanding of crime patterns or a predictive tool, it is difficult to identify high-risk areas, prioritize policing efforts, or inform public safety policies. The project aims to address the need for data-driven insights and accurate predictions of crime rates using historical data.
+
+---
+
+## Problem Solved
+
+This project provides a robust solution by analyzing historical London crime data to uncover patterns and trends, and by developing a predictive model to estimate future crime rates. Through exploratory data analysis, the project identifies key crime hotspots, seasonal trends, and prevalent crime types. The linear regression model, trained on engineered features, enables accurate predictions of crime rates for specific months, locations, and crime types. The interactive prediction function empowers users to make informed decisions, supporting applications in urban planning, law enforcement resource allocation, and community safety initiatives.
 
 ---
 
@@ -122,5 +136,3 @@ make_prediction("2022-08", "On or near A1", "Bicycle theft")
 ## License
 
 This project is intended for educational and research purposes only.
-
----
